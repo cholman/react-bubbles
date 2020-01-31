@@ -26,11 +26,21 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain what a token is used for.
-- [ ] What steps can you take in your web apps to keep your data secure?
-- [ ] Describe how web servers work.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [x] Explain what a token is used for.
 
+     authenticating a user
+
+- [x] What steps can you take in your web apps to keep your data secure?
+
+    use https don't store passwords in plain text
+
+- [x] Describe how web servers work.
+
+    servers are computers that are connected to the internet and serve and/or recieve data from other computers
+
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+  create, read, update, delete - post, get, put, and delete
 
 ## Project Set Up
 
@@ -63,14 +73,14 @@ The MVP of this project will be broken up between 2 stages. Follow each step.
 
 Build a login form to authenticate your users.
 
-- [ ] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
-- [ ] Save the token to localStorage
-- [ ] Build a `axiosWithAuth` module to create an instance of axios with the authentication header
-- [ ] Build a `PrivateRoute` component and use it to protect a route that renders the `BubblesPage` component
+- [x] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
+- [x] Save the token to localStorage
+- [x] Build a `axiosWithAuth` module to create an instance of axios with the authentication header
+- [x] Build a `PrivateRoute` component and use it to protect a route that renders the `BubblesPage` component
 
 ### Stage 2 - Consuming the API
 
-- [ ] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
+- [x] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
 - [ ] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
 - [ ] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
 
